@@ -1,0 +1,7 @@
+version: '2'
+services:
+  impressive-plums:
+    image: phildwilson/impressive-plums:latest
+    privileged: true
+    ports:
+      - "80"
